@@ -1,5 +1,5 @@
 \documentclass[10pt, a4paper]{article}
-    \usepackage[margin=1cm]{geometry}
+    \usepackage[margin=0.9cm]{geometry}
     \usepackage{array}
     \usepackage{xcolor}
     \usepackage{fontawesome}
@@ -7,12 +7,13 @@
     \usepackage{hyperref}
     \usepackage{titlesec}
     \pagenumbering{gobble}
-    \titlespacing*{\section}{0pt}{0.25\baselineskip}{0.2\baselineskip}
+    \titlespacing*{\section}{0pt}{0.225\baselineskip}{0.225\baselineskip}
     \setlist[itemize]{noitemsep, topsep=0pt}
     \newcolumntype{L}{>{\raggedleft}p{0.11\textwidth}}
     \newcolumntype{R}{p{0.84\textwidth}}
     \setlength{\parindent}{0pt}
     \newcommand\vsep{\color{lightgray} \vrule width 0.5pt}
+    \newcommand\sect[1]{\section*{\Large\sc #1}}
     \begin{document}
         \begin{center}
             \bfseries\huge\sc Eugene Lin
@@ -25,7 +26,7 @@
             \faGlobe \ \ \href{https://eugenel.in/}{eugenel.in} &
             \faLinkedinSquare \ \ \href{https://www.linkedin.com/in/line/}{linkedin.com/in/line}
         \end{tabular*}
-        \section*{\large\sc Education}
+        \sect{Education}
             \begin{tabular}{L!{\vsep}R}
                 2018 - 2022 & MEng Computing, Imperial College London
                 \begin{itemize}
@@ -36,12 +37,12 @@
                 \begin{itemize}
                     \item STEP: Grade 2 in STEP I, and Grade 3 in STEP II
                     \item A Level: A*A*A*A in Maths, Further Maths, Computer Science, and Physics
-                    \item BMO: Qualified for first round, based on UKMT SMC results, perfect score in 2 questions
+                    \item BMO Round 1: Perfect score in 2 questions; qualified based on UKMT SMC results
                     \item GCSE: A\^{} (Further Maths), 8 A*s (equivalent), and 5 As
                     \vspace{-\baselineskip}
                 \end{itemize}
             \end{tabular}
-        \section*{\large\sc Work Experience}
+        \sect{Work Experience}
             \begin{tabular}{L!{\vsep}R}
                 Fire Tech Camp & \textbf{(2019)}
                     Worked as a Senior Java/C\# instructor, for groups of children aged 14, and up.
@@ -60,14 +61,13 @@
                     During my work experience placement, I assisted in updating a legacy e-commerce site running Magento.
                     This helped to develop my skills using version control, alongside other tools; such as setting up Vagrant-based VMs for web development.
             \end{tabular}
-        \section*{\large\sc Projects}
+        \sect{Projects}
             \begin{tabular}{L!{\vsep}R}
-                ARM Group Project & \textbf{(2019)}
+                C Group Project & \textbf{(2019)}
                     Part of our first year C module.
                     Implemented an assembler, and emulator for the ARMv6 instruction set.
-                    Designed hardware (PCB), as well as the software interface for a bi-colour LED matrix.
+                    Designed custom hardware (PCB), as well as the software interface for a bi-colour LED matrix.
                     Also assisted in implementing the extension - a Monte-Carlo Tree Search to play Connect 4.
-                    Introduced proper use of version control, and other programming tools.
                     \\
                 eduCATe & \textbf{(2019)}
                     For ICHack 19, our team chose to implement a chat platform, being tailored for educational purposes.
@@ -79,7 +79,7 @@
                     During HackKing's 5.0, we decided to recreate Twitter from scratch (for a 90's themed challenge).
                     Other than jQuery, and Google's OAuth2, we used no other external libraries.
                     Through this project, we learnt how to deploy through Git, set up a basic LAMP stack, and prevent against basic attacks.
-                    While I mainly worked on the backend, I assisted in implementing some JavaScript to handle features such as a refreshing feed.
+                    While I mainly worked on the endpoints, I assisted in implementing some JavaScript to handle features such as a refreshing feed.
                     \\
                 Untitled Game & \textbf{(2018)}
                     As part of my final project for A Level Computer Science, I wrote a game in C\#, with Unity.
@@ -93,12 +93,18 @@
                     This is unlikely to be updated, due to Skype's decreasing popularity.
                     Also designed an open-sourced Skype bot utilising this library, featuring a simple plugin manager, alongside a basic permissions system.
             \end{tabular}
-        \section*{\large\sc Skills \& Interests}
+        \sect{Skills \& Interests}
             \begin{tabular}{L!{\vsep}R}
                 Programming &
                     Despite the majority of my experience being in C\# (including Unity), PHP, Python, and Java; I have various amounts of experience in other programming languages, including Haskell, Kotlin, C, and JavaScript (mainly with the p5.js framework).
                     All of my public projects are available on my GitHub.
-                    I am also proficient with markup languages such as LaTeX.
+                    I am also comfortable with markup languages such as LaTeX.
+                    \\
+                Linux &
+                    Proficient in using the Linux command line - including managing headless servers.
+                    Experience working with web stacks such as LAMP, and MEAN.
+                    Able to use standard programming utilities such as version control.
+                    Comfortable with automating (and scripting) repetitive tasks.
                     \\
                 Mandarin &
                     I am fluent in spoken Mandarin Chinese, and am able to converse at a reasonable pace with other native speakers.
