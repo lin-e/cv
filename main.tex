@@ -14,6 +14,7 @@
     \setlength{\parindent}{0pt}
     \newcommand\vsep{\color{lightgray} \vrule width 0.5pt}
     \newcommand\sect[1]{\section*{\Large\sc #1}}
+    \newcommand\itemizespace{\vspace{-0.8\baselineskip}}
     \begin{document}
         \begin{center}
             \bfseries\huge\sc Eugene Lin
@@ -31,7 +32,7 @@
                 \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                     \setlength{\itemindent}{-0.1in}
                     \item Year 1: 81\% average, with first-class honours in all modules, and 85\% in programming
-                    \vspace{-\baselineskip}
+                    \itemizespace
                 \end{itemize} \\
                 2011 - 2018 & Dunraven School (Sixth Form, and Secondary School)
                 \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
@@ -45,72 +46,103 @@
             \end{tabular}
         \sect{Work Experience}
             \begin{tabular}{L!{\vsep}R}
-                Fire Tech Camp & \textbf{(2019)}
-                    Worked as a Senior C\#/Java instructor, for groups of children aged 14, and up.
-                    I received consistent positive feedback; especially due to my hands-on teaching style.
-                    This position provided me with experience on debugging code written by others.
-                    \\
-                Tutoring & \textbf{(2016 - 2019)}
-                    For a period of time, I tutored children from Year 6 to Year 10, with a focus in mathematics.
-                    During this time, I was able to improve my communication skills, and practised how to explain challenging topics in simple terms.
-                    \\
-                Freelance Projects & \textbf{(2015 - 2018)}
-                    I occasionally take on clients for freelance work.
-                    In all of my projects, I aim to meet the expectations of my clients via a system of consistent communication and updates on the status of the project, as well as taking any inputs or suggestions they might have.
-                    \\
-                Zodiac Media & \textbf{(2017)}
-                    During my work experience placement, I assisted in updating a legacy e-commerce site running Magento.
-                    This helped to develop my skills using version control, alongside other tools; such as setting up Vagrant-based VMs for web development.
+                2019 & Fire Tech Camp
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Worked as a Senior C\#/Java/Python instructor, for groups of children aged 14, and up
+                    \item Received consistent positive feedback for my hands-on teaching style
+                    \item Provided me with experience on debugging code written by others
+                    \itemizespace
+                \end{itemize} \\
+                2016 - 2019 & Tutoring
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Tutored children from Year 6 to Year 10, with a focus in mathematics
+                    \item Improved communication skills, and practised how to explain challenging topics in simple terms
+                    \itemizespace
+                \end{itemize} \\
+                2015 - 2018 & Freelance Projects
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Occasionally took on clients for freelance work
+                    \item Met expectations of clients through consistent communication, and flexibility to suggestions
+                    \itemizespace
+                \end{itemize} \\
+                2017 & Zodiac Media
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Assisted in updating a legacy e-commerce site running Magento (PHP)
+                    \item Heavy use of version control for deployment, and Vagrant for web development
+                    \vspace{-\baselineskip}
+                \end{itemize}
             \end{tabular}
         \sect{Projects}
             \begin{tabular}{L!{\vsep}R}
-                ARM Project & \textbf{(2019)}
-                    Implemented an assembler, and emulator for the ARMv6 instruction set.
-                    Designed custom hardware (PCB), as well as the software interface for a bi-colour LED matrix.
-                    Also assisted in implementing the extension - a Monte-Carlo Tree Search to play Connect 4.
-                    \\
-                eduCATe & \textbf{(2019)}
-                    For ICHack 19, we implemented a chat platform tailored for educational purposes.
-                    Our design used a similar threading system to Slack for each assignment, in order to maintain organisation.
-                    I designed, and implemented, the backend (built mostly on PHP), with a focus on cross-platform compatibility.
-                    Our frontend was an Android application.
-                    \\
-                Yeetr & \textbf{(2018)}
-                    During HackKing's 5.0, we decided to recreate Twitter from scratch (for a 90's themed challenge).
-                    Other than jQuery, and OAuth2, we used no other external libraries.
-                    Through this project, we learnt how to deploy through Git, set up a basic LAMP stack, and prevent against basic attacks.
-                    While I mainly worked on the endpoints, I assisted in implementing some JavaScript to handle features such as a refreshing feed.
-                    \\
-                Untitled Game & \textbf{(2018)}
-                    As part of my final project for A Level Computer Science, I wrote a game in C\#, with Unity.
-                    The project featured procedural terrain generation, which created mazes with basic MST algorithms, and generated trees with a custom mesh builder.
-                    The entities in the game gradually improved with the use of a genetic algorithm, and also kept track of scores with a basic web interface.
-                    The game also implements a low-latency LAN library I designed for interacting with IoT lighting devices.
-                    \\
-                Skype4Sharp & \textbf{(2016 - 2017)}
-                    The library is outdated, and I haven't had time to fix it due to other commitments.
-                    At the time, it was one of the only (if not the only) .NET libraries for Skype that allowed for interaction with the web client, and improved on aspects of the original Skype4COM framework.
-                    Used in a publicly available Skype bot, with a reach of over 5,000 users at its peak.
-                    Also designed an open-sourced Skype bot utilising this library, featuring a simple plugin manager, alongside a basic permissions system.
+                2019 & ARM Project \hfill \textbf{C, ARM Assembly, KiCAD}
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Implemented an assembler, and emulator for the ARMv6 instruction set
+                    \item Designed custom hardware (PCB), as well as the software interface for a bi-colour LED matrix
+                    \item Also assisted in implementing the extension - a Monte-Carlo Tree Search to play Connect 4
+                    \itemizespace
+                \end{itemize} \\
+                2019 & eduCATe (ICHack 19) \hfill \textbf{PHP, Java}
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Designed a chat platform tailored for educational purposes
+                    \item Maintained organisation with a similar threading system to Slack
+                    \item Implemented backend in PHP, for cross-platform compatibility, and assisted in Android app
+                    \itemizespace
+                \end{itemize} \\
+                2018 & Yeetr (HackKing's 5.0) \hfill \textbf{PHP, JavaScript}
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Recreated Twitter for a 90's themed challenge
+                    \item Deployment through Git, and prevent basic attacks
+                    \item Implemented PHP endpoints, as well as JavaScript (with jQuery) for dynamically displaying feed
+                    \itemizespace
+                \end{itemize} \\
+                2018 & Untitled Game (A Level Project) \hfill \textbf{C\# (Unity), PHP, JavaScript (p5.js), Python}
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Generated terrain with basic MST algorithms, and generated trees with a custom mesh builder
+                    \item Enemies in the game gradually improved with the use of a genetic algorithm
+                    \item Web interface for scores, as well as custom LAN library for low-latency IoT lighting
+                    \itemizespace
+                \end{itemize} \\
+                2016 - 2017 & Skype4Sharp \hfill \textbf{C\#}
+                \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                    \setlength{\itemindent}{-0.1in}
+                    \item Only public .NET library for interacting with modern Skype chats (at the time)
+                    \item Used in a publicly available Skype bot, with a reach of over 5,000 users at its peak
+                    \item Designed an open-sourced Skype bot, featuring a plugin manager, and a permissions system
+                    \vspace{-\baselineskip}
+                \end{itemize}
             \end{tabular}
         \sect{Skills \& Interests}
             \begin{tabular}{L!{\vsep}R}
                 Programming &
-                    Despite the majority of my experience being in C\# (including Unity), PHP, Python, and Java; I have various amounts of experience in other programming languages, including Haskell, Kotlin, C, and JavaScript (mainly with the p5.js framework).
+                    Comfortable with C\# (including Unity), PHP, Python, and Java.
+                    Also have various amounts of experience in other programming languages, including Haskell, Kotlin, C, and JavaScript.
                     All of my public projects are available on my GitHub.
                     I am also comfortable with markup languages such as LaTeX.
+                    \vspace{0.2\baselineskip}
                     \\
                 Linux &
                     Proficient in using the Linux command line - including managing headless servers.
                     Experience working with web stacks such as LAMP, and MEAN.
                     Able to use standard programming utilities such as version control.
                     Comfortable with automating (and scripting) repetitive tasks.
+                    \vspace{0.2\baselineskip}
                     \\
                 Mandarin &
                     I am fluent in spoken Mandarin Chinese, and am able to converse at a reasonable pace with other native speakers.
+                    \vspace{0.2\baselineskip}
                     \\
                 Prototyping \& Design &
-                    Due to an interest in customising devices (namely keyboards), I started to explore different parts of prototyping, such as designing my own PCBs.
-                    As such, I completed an additional course in prototyping at Imperial College London, which aided in developing my skills with electronics, as well as teaching me the basics of CAD. I also have some experience in Photoshop, and After Effects.
+                    Explored different parts of prototyping, such as designing my own PCBs.
+                    Completed an additional course in prototyping at Imperial College London, which aided in developing my skills with electronics, as well as teaching me the basics of CAD.
+                    I also have some experience in Photoshop, and After Effects.
+                    \vspace{0.2\baselineskip}
             \end{tabular}
     \end{document}
