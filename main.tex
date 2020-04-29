@@ -15,6 +15,7 @@
     \newcommand\vsep{\color{lightgray} \vrule width 0.5pt}
     \newcommand\sect[1]{\section*{\Large\sc #1}}
     \newcommand\itemizespace{\vspace{-0.65\baselineskip}}
+    \newcommand\tspace{\hfill}
     \begin{document}
         \begin{center}
             \bfseries\huge\sc Eugene Lin
@@ -28,19 +29,17 @@
         \end{tabular*}
         \sect{Education}
             \begin{tabular}{L!{\vsep}R}
-                2018 - 2022 &\textbf{Imperial College London} \hfill MEng Computing
+                2018 - 2022 &\textbf{Imperial College London} \tspace MEng Computing
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Year 1: 81\% overall (Dean's List), with first-class honours in all modules, and 85\% in programming
                         \itemizespace
                     \end{itemize} \\
-                2011 - 2018 & \textbf{Dunraven School} \hfill Sixth Form, and Secondary School
+                2011 - 2018 & \textbf{Dunraven School} \tspace Sixth Form, and Secondary School
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item STEP: Grade 2 in STEP I, and Grade 3 in STEP II
                         \item A Level: A*A*A*A in Maths, Further Maths, Computer Science, and Physics
-                        \item BMO Round 1: Perfect score in 2 questions; qualified based on UKMT SMC results
-                        \item GCSE: A\^{} (Further Maths), 8 A*s (equivalent), and 5 As
                         \vspace{-1.1\baselineskip}
                     \end{itemize}
             \end{tabular}
@@ -77,8 +76,16 @@
                     \end{itemize}
             \end{tabular}
         \sect{Projects}
-            \begin{tabular}{L!{\vsep}R}
-                2019 & \href{https://github.com/lin-e/imperial-arm11}{\textbf{ARM Project}} \hfill C, ARM Assembly, KiCAD
+            \begin{tabular}{L!{\vsep}R} \\
+                2020 & \href{https://github.com/lin-e/WACC}{\textbf{Optimising Compiler}} \tspace Scala, ARM Assembly % Docker, Kubernetes
+                    \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                        \setlength{\itemindent}{-0.125in}
+                        \item Full WACC compiler including parsing, semantic analysis, code generation, and optimisation in SSA
+                        \item Implemented a continous integration pipeline with \textit{Docker} and \textit{Kubernetes} to automate testing
+                        \item Extended the language to support OOP, libraries, type inference, and metaprogramming
+                        \itemizespace
+                    \end{itemize} \\
+                2019 & \href{https://github.com/lin-e/imperial-arm11}{\textbf{ARM Project}} \tspace C, ARM Assembly, KiCAD
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Implemented an assembler, and emulator for the ARMv6 instruction set
@@ -86,23 +93,23 @@
                         \item Also assisted in implementing the extension - a Monte-Carlo Tree Search to play Connect 4
                         \itemizespace
                     \end{itemize} \\
-                2019 & \href{https://github.com/lin-e/ICHack19}{\textbf{eduCATe (ICHack 19)}} \hfill PHP, Java
-                    \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
-                        \setlength{\itemindent}{-0.125in}
-                        \item Designed a chat platform tailored for educational purposes
-                        \item Maintained organisation with a similar threading system to Slack
-                        \item Implemented backend in PHP, for cross-platform compatibility, and assisted in Android app
-                        \itemizespace
-                    \end{itemize} \\
-                2018 & \href{https://github.com/mohammedf2606/yeetr-twitter-clone}{\textbf{Yeetr (HackKing's 5.0)}} \hfill PHP, JavaScript
+                % 2019 & \href{https://github.com/lin-e/ICHack19}{\textbf{eduCATe (ICHack 19)}} \tspace PHP, Java
+                %     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                %         \setlength{\itemindent}{-0.125in}
+                %         \item Designed a chat platform tailored for educational purposes
+                %         \item Maintained organisation with a similar threading system to Slack
+                %         \item Implemented backend in PHP, for cross-platform compatibility, and assisted in Android app
+                %         \itemizespace
+                %     \end{itemize} \\
+                2018 & \href{https://github.com/mohammedf2606/yeetr-twitter-clone}{\textbf{Yeetr (HackKing's 5.0)}} \tspace PHP, JavaScript
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Recreated Twitter for a 90's themed challenge
                         \item Learnt to deploy through Git, and prevent basic attacks
-                        \item Implemented PHP endpoints, as well as JavaScript (with jQuery) for dynamically displaying feed
+                        \item Implemented PHP endpoints, as well as JavaScript (with \textit{jQuery}) for dynamically displaying feed
                         \itemizespace
                     \end{itemize} \\
-                2018 & \href{https://github.com/lin-e/CSProject2017}{\textbf{Untitled Game}} \hfill C\#, PHP, JavaScript, Python
+                2018 & \href{https://github.com/lin-e/CSProject2017}{\textbf{Untitled Game}} \tspace C\#, PHP, JavaScript, Python
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Generated terrain with basic MST algorithms, and generated trees with a custom mesh builder
@@ -110,7 +117,7 @@
                         \item Web interface for scores, as well as a custom library for low-latency IoT lighting over a LAN
                         \itemizespace
                     \end{itemize} \\
-                2016 - 2017 & \href{https://github.com/lin-e/Skype4Sharp}{\textbf{Skype4Sharp}} \hfill C\#
+                2016 - 2017 & \href{https://github.com/lin-e/Skype4Sharp}{\textbf{Skype4Sharp}} \tspace C\#
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Only public .NET library for interacting with modern Skype chats (at the time)
@@ -122,7 +129,7 @@
         \sect{Skills \& Interests}
             \begin{tabular}{L!{\vsep}R}
                 Programming &
-                    Comfortable with C\# (including Unity), PHP, Python, and Java.
+                    Comfortable with Scala, C\# (including Unity), PHP, Python, and Java.
                     Also have various amounts of experience in other programming languages, including Kotlin, Haskell, C, and JavaScript.
                     All of my public projects are available on my GitHub.
                     I am also comfortable with markup languages such as LaTeX.
