@@ -15,6 +15,7 @@
     \newcommand\vsep{\color{lightgray} \vrule width 0.5pt}
     \newcommand\sect[1]{\section*{\hspace{.05cm} \Large\sc #1}}
     \newcommand\itemizespace{\vspace{-0.65\baselineskip}}
+    \newcommand\finishsectionspace{\vspace{-0.9\baselineskip}}
     \newcommand\tspace{\hfill}
     \begin{document}
         \begin{center}
@@ -42,23 +43,23 @@
                         \setlength{\itemindent}{-0.125in}
                         % \item STEP: Grade 2 in STEP I, and Grade 3 in STEP II
                         \item A Level: A*A*A*A in Maths, Further Maths, Computer Science, and Physics
-                        \vspace{-1.1\baselineskip}
+                        \finishsectionspace
                     \end{itemize}
             \end{tabular}
         \sect{Work Experience}
             \begin{tabular}{L!{\vsep}R}
-                2020 & \textbf{Netcraft}
+                2020 & \textbf{Netcraft} \tspace Perl, PHP, JavaScript
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
-                        \item Assisted in improving and automating client-facing fraud detection services written in Perl
+                        \item Assisted in improving and automating client-facing fraud detection services written in \textbf{Perl}
                         \item Identified patterns in historic datasets to detect resurfacing phishing attacks
                         \item Deployed automated detection of money laundering recruitment across social media sites
                         \itemizespace
                     \end{itemize} \\
-                2019 & \textbf{Fire Tech Camp}
+                2019 & \textbf{Fire Tech Camp} \tspace C\#, Java, Python
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
-                        \item Worked as a Senior C\#/Java/Python instructor, for groups of children aged 12, and up
+                        \item Worked as a Senior \textbf{C\#/Java/Python} instructor, for groups of children aged 12, and up
                         \item Received consistent positive feedback for my hands-on teaching style
                         \item Provided me with experience on debugging code written by others
                         \itemizespace
@@ -70,19 +71,19 @@
                         \item Improved communication skills, and practised how to explain challenging topics in simple terms
                         \itemizespace
                     \end{itemize} \\
-                2015 - 2018 & \textbf{Freelance Projects}
+                % 2015 - 2018 & \textbf{Freelance Projects}
+                %     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                %         \setlength{\itemindent}{-0.125in}
+                %         \item Occasionally took on clients for freelance work
+                %         \item Met expectations of clients through consistent communication, and flexibility to suggestions
+                %         \itemizespace
+                %     \end{itemize} \\
+                2017 & \textbf{Zodiac Media} \tspace PHP
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
-                        \item Occasionally took on clients for freelance work
-                        \item Met expectations of clients through consistent communication, and flexibility to suggestions
-                        \itemizespace
-                    \end{itemize} \\
-                2017 & \textbf{Zodiac Media}
-                    \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
-                        \setlength{\itemindent}{-0.125in}
-                        \item Assisted in updating a legacy e-commerce site running \textit{Magento} (PHP)
-                        \item Heavy use of version control for deployment, and \textit{Vagrant} for web development
-                        \vspace{-1.1\baselineskip}
+                        \item Assisted in updating a legacy e-commerce site running \textbf{Magento} (\textbf{PHP})
+                        \item Heavy use of version control for deployment, and \textbf{Vagrant} for web development
+                        \finishsectionspace
                     \end{itemize}
             \end{tabular}
         \sect{Projects}
@@ -90,16 +91,16 @@
                 2020 & \href{https://github.com/lin-e/EventKiwi}{\textbf{EventKiwi}} \tspace TypeScript
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
-                        \item Cross-platform application, built with the \textit{PERN} stack and deployed on \textit{Heroku}, for tracking events
+                        \item Cross-platform application, built with the \textbf{PERN} stack and deployed on \textbf{Heroku}, for tracking events
                         \item Iteratively designed with regular feedback from users and the Royal College of Art
-                        \item Integrated with \textit{Azure} for user authentication and \textit{AWS S3} for static resource hosting
+                        \item Integrated with \textbf{Azure} for user authentication and \textbf{AWS S3} for static resource hosting
                         \itemizespace
                     \end{itemize} \\
                 2020 & \href{https://github.com/lin-e/WACC}{\textbf{Optimising Compiler}} \tspace Scala, ARM
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Full WACC compiler including parsing, semantic analysis, code generation, and optimisation in SSA
-                        \item Implemented a continuous integration pipeline with \textit{Docker} and \textit{Kubernetes} to automate testing
+                        \item Implemented a continuous integration pipeline with \textbf{Docker} and \textbf{Kubernetes} to automate testing
                         \item Extended the language to support OOP, libraries, type inference, and metaprogramming
                         \itemizespace
                     \end{itemize} \\
@@ -107,7 +108,7 @@
                     \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
                         \setlength{\itemindent}{-0.125in}
                         \item Implemented an assembler, and emulator for the ARMv6 instruction set
-                        \item Designed custom PCB (with \textit{KiCAD}), as well as the software interface for a bi-colour LED matrix
+                        \item Designed custom PCB (with \textbf{KiCAD}), as well as the software interface for a bi-colour LED matrix
                         \item Also assisted in implementing the extension - a Monte-Carlo Tree Search to play Connect 4
                         \itemizespace
                     \end{itemize} \\
@@ -147,8 +148,8 @@
         \sect{Skills \& Interests}
             \begin{tabular}{L!{\vsep}R}
                 Programming &
-                    Comfortable with Scala, C\# (including Unity), PHP, Python, TypeScript, and Java.
-                    Also have various amounts of experience in other programming languages, including Kotlin, Haskell, Perl, C, and JavaScript.
+                    Comfortable with \textbf{Scala}, \textbf{C\#} (including \textbf{Unity}), \textbf{PHP}, \textbf{Python}, \textbf{TypeScript}, and \textbf{Java}.
+                    Also have various amounts of experience in other programming languages, including \textbf{Kotlin}, \textbf{Haskell}, \textbf{Perl}, \textbf{C}, and \textbf{JavaScript}.
                     My public projects are available on GitHub.
                     Also comfortable with markup languages such as LaTeX.
                     \vspace{0.35\baselineskip} \\
@@ -164,6 +165,7 @@
                 Prototyping \& Design &
                     Explored different parts of prototyping, such as designing my own PCBs.
                     Completed an additional course in prototyping at Imperial College London, which aided in developing my skills with electronics, as well as teaching me the basics of CAD.
-                    I also have some experience in \textit{Photoshop}, \textit{After Effects}, and \textit{Cinema4D}.
+                    I also have some experience in \textbf{Photoshop}, \textbf{After Effects}, and \textbf{Cinema4D}.
+                    \vspace{0.35\baselineskip} \\
             \end{tabular}
     \end{document}
